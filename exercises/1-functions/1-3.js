@@ -15,7 +15,6 @@ function drawSquare() {
     context.lineTo(50,400);
     context.lineTo(225,400);
 
-
     context.lineTo(225,225);
     context.lineTo(575,225);
     context.lineTo(575,575);

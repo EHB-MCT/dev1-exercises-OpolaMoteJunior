@@ -5,10 +5,8 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 let context = canvas.getContext('2d')
 
-drawSquare();
+let width = context.canvas.width;
+let height = context.canvas.height;
 
-function drawSquare() {
-    context.beginPath();
-    context.moveTo();
-}
- 
+let randomX = Math.floor(Math.random() * width);
+let randomY = Math.floor(Math.random() * height);
